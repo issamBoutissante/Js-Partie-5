@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercice 2</title>
+  </head>
+  <body>
+    <button onclick="afficher()">Afficher</button>
+    <p id="text"></p>
+  </body>
+  <script>
+    var info = prompt("entrer votre nom ");
+    info += prompt("entrer votre age");
+    info += prompt("entrer votre ville");
+    function afficher() {
+      document.getElementById("text").innerHTML = info;
+    }
+  </script>
+</html>
